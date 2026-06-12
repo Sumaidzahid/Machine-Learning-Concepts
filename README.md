@@ -62,18 +62,6 @@ The dataset is processed to handle missing values, outliers, and skewed distribu
 
 The project demonstrates how preprocessing and feature engineering significantly impact regression performance. Multiple models are compared to determine the most suitable approach for predicting vehicle advertisement prices.
 
-## How to Run
-
-1. Open the notebook in Google Colab or Jupyter Notebook
-2. Install required dependencies:
-
-```bash
-pip install pandas numpy scikit-learn matplotlib seaborn
-```
-
-3. Run all cells sequentially
-4. Review model outputs and evaluation metrics
-
 ## Author
 
 Muhammad Zahid
