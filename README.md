@@ -78,3 +78,7 @@ pip install pandas numpy scikit-learn matplotlib seaborn
 
 Muhammad Zahid
 MSc Artificial Intelligence | Mechatronics Engineer
+
+## Association 
+
+Univesity project: Manchester metropolitan university (mmu)
