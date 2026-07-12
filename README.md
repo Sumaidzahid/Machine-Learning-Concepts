@@ -62,6 +62,10 @@ The dataset is processed to handle missing values, outliers, and skewed distribu
 
 The project demonstrates how preprocessing and feature engineering significantly impact regression performance. Multiple models are compared to determine the most suitable approach for predicting vehicle advertisement prices.
 
+Decision Tree Regressor: MAE of 2,721 vs baseline of 10,795 — that's a 74.8% error reduction. This is a concrete, citable number. It's nowhere on your CV.
+
+You implemented proper pipeline architecture preventing data leakage, hierarchical imputation, log transformation, and feature engineering. That's not "built ML models" — that's competent ML engineering.
+
 ## Author
 
 Muhammad Zahid
