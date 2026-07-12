@@ -62,9 +62,15 @@ The dataset is processed to handle missing values, outliers, and skewed distribu
 
 The project demonstrates how preprocessing and feature engineering significantly impact regression performance. Multiple models are compared to determine the most suitable approach for predicting vehicle advertisement prices.
 
-Decision Tree Regressor: MAE of 2,721 vs baseline of 10,795 — that's a 74.8% error reduction. This is a concrete, citable number. It's nowhere on your CV.
-
-You implemented proper pipeline architecture preventing data leakage, hierarchical imputation, log transformation, and feature engineering. That's not "built ML models" — that's competent ML engineering.
+- KNN Regressor achieved the highest performance (Test R² = 0.934).
+- Decision Tree Regressor provided the best balance between accuracy and computational efficiency (Test R² = 0.926).
+- Linear Regression served as a baseline with lower performance (Test R² = 0.854).
+- Grid Search identified the optimal Decision Tree configuration as max_depth = 12 and min_samples_leaf = 10.
+- Year of registration, mileage, vehicle model, and manufacturer were the most influential features.
+- Log transformation of the target variable reduced price skewness and improved model stability.
+- The Decision Tree achieved a Mean Absolute Error (MAE) of £2,721, significantly outperforming the baseline (£10,795).
+- Residual analysis showed low overall bias, with larger prediction errors occurring mainly for high-priced vehicles.
+- Overall, the models captured vehicle pricing trends effectively, with Decision Tree selected as the preferred model due to its strong performance    and lower computational cost compared to KNN.
 
 ## Author
 
